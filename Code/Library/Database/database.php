@@ -1,16 +1,8 @@
 <?php 
 
-$conexionActiva = conectarBD();
+$conexionActiva = mysqli_connect('localhost', 'root', '', 'carteleracine');
 
-function conectarBD() : mysqli {
-    $conexion = mysqli_connect('localhost', 'root', '', 'carteleracine');
-
-    if(!$conexion) {
-        echo "Error no se pudo conectar";
-        exit;
-    } else {
-        echo "Conectado correctamente";
-    }
-
-    return $conexion;
+if(!$conexionActiva) {
+    echo "Error no se pudo conectar";
+    exit;
 }
