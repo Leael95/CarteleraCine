@@ -27,7 +27,7 @@ Backend:
 -- Descripcion
 -- Categoria
 -- path de Imagen
--- Link trailer YT
+-- Link trailer YT 
 
 -Validaciones para que en la barra de busqueda solo se pueda buscar y no insertar nada
 -Rollback por si hay errores
