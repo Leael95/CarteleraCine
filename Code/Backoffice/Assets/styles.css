@@ -1,3 +1,35 @@
+html {
+    font-size: 62.5%;
+    box-sizing: border-box;
+    }
+    *,
+    *:before,
+    *:after {
+    box-sizing: inherit;
+    }
+
+body {
+    font-size: 1.5rem;
+}
+
 .bold-p {
     font-weight: bold;
+}
+
+.nav-bar-styles {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    background-color: aqua;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.nav-bar-styles a {
+    margin-right: 1rem;
+}
+
+.nav-bar-left {
+    display: flex;
+    align-items: center;
 }

@@ -11,6 +11,7 @@
     <h1>¡Todas nuestras peliculas!</h1>
 
     <?php
+        include "../Library/Partials/navbar.php";
         include "../Library/Database/movies.php";
     ?>
 </body>

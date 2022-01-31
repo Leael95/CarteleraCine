@@ -8,9 +8,8 @@
     <title>PeliculasYa</title>
 </head>
 <body>
-    <h1>¡PeliculasYa!</h1>
-
     <?php
+        include "../Library/Partials/navbar.php";
         include "../Library/Database/randomMovie.php";
     ?>
 </body>
