@@ -7,7 +7,11 @@ if(isset($_GET['nombre'])) {
 
     $peliculas = "SELECT * FROM cartelera WHERE nombre = '$nombrePelicula'";
 
-} else {
+} else if(isset($_GET['categoria'])) {
+    $nombreCategoria = $_GET['categoria'];
+
+    $peliculas = "SELECT * FROM cartelera WHERE categoria = '$nombreCategoria'";
+}  else {
     $peliculas = "SELECT * FROM cartelera";
 } 
 
