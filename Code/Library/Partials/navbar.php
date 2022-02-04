@@ -7,7 +7,7 @@
                 </nav>
         </div>
         <div class="nav-bar-right">
-            <input type="text">
-            <button type="submit">Buscar</button>
+            <input type="text" id="txtMovie">
+            <button id="btnSearchMovie">Buscar</button>
         </div>
     </div>

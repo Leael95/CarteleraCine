@@ -29,5 +29,5 @@ $row = mysqli_fetch_assoc($resultado);
     <p><span class="bold-p">Categoria: </span><?php echo $row["categoria"] ?></p>
     <p><span class="bold-p">PathImg: </span><?php echo $row["pathimg"] ?></p>
     <p><span class="bold-p">TrailerLink: </span><?php echo $row["trailerlink"] ?></p>
-    <img src="<?php echo $row["pathimg"] ?>" alt="">
+    <a href="<?php echo $row["trailerlink"]?>" target="_blank"><img src="<?php echo $row["pathimg"] ?>" alt=""></a>
 </div>

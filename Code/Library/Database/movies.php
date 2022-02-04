@@ -27,6 +27,6 @@ while($row=mysqli_fetch_assoc($resultado)) { ?>
         <p><span class="bold-p">TrailerLink: </span><?php echo $row["trailerlink"] ?></p>
         <a href="movieEdit.php?id=<?php echo $row["id"];?>">Editar</a>
         <a href="movieDelete.php?id=<?php echo $row["id"];?>">Eliminar</a>
-        <img src="<?php echo $row["pathimg"] ?>" alt="">
+        <a href="<?php echo $row["trailerlink"]?>" target="_blank"><img src="<?php echo $row["pathimg"] ?>" alt=""></a>
     </div>
 <?php } 

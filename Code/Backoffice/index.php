@@ -13,4 +13,7 @@
         include "../Library/Database/randomMovie.php";
     ?>
 </body>
+
+<script src="Assets/scripts.js"> 
+</script>
 </html>
