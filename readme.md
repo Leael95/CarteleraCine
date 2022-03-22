@@ -19,6 +19,7 @@ Frontend:
 -Tienen que salir todas las peliculas en orden de lanzamiento con su respectiva imagen y abajo de esta su nombre, hasta un maximo de 3 para PC, 1 para Mobile y 2 para Tablet
 -A la izquierda tiene que estar las categorias con su cantidad de numeros por pelicula
 -Al hacerle click a uno te llevara a la pelicula con su descripcion y tambien al trailer
+-Usar like en el where de SQL, para poder traer las peliculas con nombre aproximado
 
 Backend:
 -Base de datos con las siguientes columnas:

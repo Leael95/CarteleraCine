@@ -13,10 +13,11 @@ $row = mysqli_fetch_assoc($resultado);
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Movie Edit</title>
+    <link rel="stylesheet" href="Assets/styles.css">
 </head>
 <body>
     <form method="post" action="../Library/Database/edit.php">
-        <h1>Crea tu pelicula</h1>
+        <h1 class="">Crea tu pelicula</h1>
         <input type="text" name="id" id="id" placeholder="id de la pelicula" value="<?php echo $row['id']?>">
         <input type="text" name="nombre" id="nombre" placeholder="Nombre de la pelicula" value="<?php echo $row['nombre']?>">
         <input type="text" name="estreno" id="estreno" placeholder="Estreno de la pelicula" value="<?php echo $row['estreno']?>">

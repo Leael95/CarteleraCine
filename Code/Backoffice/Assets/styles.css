@@ -1,4 +1,6 @@
 html {
+    background-color: black;
+    color: white;
     font-size: 62.5%;
     box-sizing: border-box;
     }
@@ -12,9 +14,17 @@ body {
     font-size: 1.5rem;
 }
 
+/*____________UNIVERSALES______________ */
+
 .bold-p {
     font-weight: bold;
 }
+
+.fontImpact {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+/*____________NAV BAR______________ */
 
 .nav-bar-styles {
     display: flex;
@@ -30,6 +40,56 @@ body {
 }
 
 .nav-bar-left {
-    display: flex;
     align-items: center;
+    display: flex;
+}
+
+/*____________MOVIE CREATE______________ */
+
+.movieCreate {
+    font-size: 5rem;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.formCreate {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.formCreate div {
+    margin-top: 0.5rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.inputStyleWH {
+    width: 50rem;
+    height: 3rem;
+}
+
+.formCreate label {
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 0.2rem;
+}
+
+.btnRegister {
+    background-color: darkred;
+    border: medium solid white;
+    border-radius: 8px;
+    color: white;
+    font-size: 2rem;
+    margin-top: 1rem;
+    text-transform: uppercase;
+    padding: 0.5rem 1rem;
+}
+
+.btnRegister:hover {
+    background-color: red;
+}
+
+.btnRegister:active {
+    background-color: crimson;
 }
